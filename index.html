@@ -18,7 +18,9 @@ button{cursor:pointer;border:0;background:none;color:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:0 18px}
 .demo{background:#000;color:#eee5d6;font-size:12.5px;padding:8px 12px;text-align:center}
 .demo b{color:var(--gold)}
-.hero{background:radial-gradient(80% 60% at 90% 110%,rgba(201,162,74,.35),transparent 65%),radial-gradient(70% 60% at 0% 0%,#6a4029,transparent 70%),var(--green);color:#fbf6ea;padding:40px 0 34px}
+.hero{background:linear-gradient(180deg,rgba(31,20,14,.15) 0%,rgba(42,26,18,.45) 45%,rgba(42,26,18,.92) 100%),url(img/mondello-spiaggia.webp) center 35%/cover no-repeat,var(--green);color:#fbf6ea;padding:56px 0 34px;min-height:440px;display:flex;align-items:flex-end}
+.hero .wrap{width:100%}
+.hero .logo,.hero p{text-shadow:0 2px 14px rgba(0,0,0,.45)}
 .kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:10px}
 .logo{font:800 clamp(40px,11vw,68px)/.95 Fraunces,serif;letter-spacing:-.02em}
 .logo em{font-style:italic;color:var(--gold);font-weight:600}
@@ -43,6 +45,8 @@ section>h2{font-size:32px;font-weight:800;margin-bottom:6px}
 .sede.mare .tag{background:#d8e6ef;color:#174560}
 .sede.citta .tag{background:#efe1cf;color:#6b3f12}
 .sede h3{font-size:24px}
+.sede .foto{margin:-18px -18px 14px;height:150px;background:url(img/mondello-barche.webp) center 55%/cover no-repeat}
+.credit{font-size:11px;color:var(--muted);margin-top:6px}
 .sede p{margin:6px 0 0;font-size:14.5px;color:var(--muted)}
 .sede .row{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .sede .row a{font-size:14px;font-weight:600;color:var(--wine);text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:8px 12px}
@@ -134,6 +138,7 @@ footer a{color:var(--ink);font-weight:600}
   <p class="sub">Scegli dove vederci: in centro, tra i vicoli della Kalsa, o sul mare di Mondello.</p>
   <div class="sedi">
     <article class="sede mare">
+      <div class="foto" role="img" aria-label="Barche dei pescatori a Mondello con Monte Gallo sullo sfondo"></div>
       <span class="tag">Sul mare · dal 4 aprile 2026</span>
       <h3>Mondello</h3>
       <p>Via Piano di Gallo 6A/6B, Piazza Mondello</p>
@@ -174,7 +179,7 @@ footer a{color:var(--ink);font-weight:600}
   <p class="sub">Tutta la carta, sezione per sezione. Il pranzo è servito dalle 12 alle 17, l'aperitivo dalle 17 (ultima ordinazione alle 21).</p>
   <div class="tabs" id="tabs"></div>
   <div id="voci"></div>
-  <p class="nota">In questa demo la carta è ricopiata dalla storia in evidenza "MENU" del vostro Instagram: piatti e prezzi potrebbero non essere aggiornati. Nel sito vero il menù si carica con <b>gofoodmenu</b>, con gli allergeni, la versione in inglese e una carta per ogni sede, e lo aggiornate voi dal telefono.</p>
+  <p class="nota">Le foto di Mondello sono di GO!Food Italia; nel sito vero si usano le vostre. In questa demo la carta è ricopiata dalla storia in evidenza "MENU" del vostro Instagram: piatti e prezzi potrebbero non essere aggiornati. Nel sito vero il menù si carica con <b>gofoodmenu</b>, con gli allergeni, la versione in inglese e una carta per ogni sede, e lo aggiornate voi dal telefono.</p>
 </section>
 
 <section id="prenota">
