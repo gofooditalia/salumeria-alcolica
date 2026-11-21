@@ -19,7 +19,7 @@ Un solo file, `index.html`, pensato per il telefono:
 
 - [x] menù completo dalla storia in evidenza "MENU" su Instagram (piatti e prezzi da riconfermare: la storia ha circa due anni)
 - [ ] orari della sede di via Alloro
-- [ ] pubblicazione su `salumeriaalcolica.gofood.it` e verifica del lucchetto HTTPS
+- [x] pubblicata su https://salumeriaalcolica.gofood.it (Vercel, CNAME su Netsons)
 
 Se la proposta non interessa, la demo viene rimossa.
 
