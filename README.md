@@ -10,14 +10,14 @@ Un solo file, `index.html`, pensato per il telefono:
 
 - le due sedi con indirizzi, orari e indicazioni;
 - i momenti della giornata (colazione, pranzo, brunch, aperitivo, pizza, dopocena);
-- il menù di Mondello per sezioni e fasce di prezzo, riassunto dalla carta pubblica su TheFork;
+- la carta completa (141 voci) ricopiata dalla storia in evidenza "MENU" del loro Instagram;
 - prenotazione con anteprima del messaggio WhatsApp verso il numero del locale (non inviato);
 - assistente in chat a regole (su allergie e intolleranze passa al locale);
 - pannello "Sei il titolare?" con calcolatore delle commissioni per coperto.
 
 ## Da completare prima dell'invio
 
-- [ ] menù completo piatto per piatto (oggi solo sezioni, fasce di prezzo e tre piatti del pranzo)
+- [x] menù completo dalla storia in evidenza "MENU" su Instagram (piatti e prezzi da riconfermare: la storia ha circa due anni)
 - [ ] orari della sede di via Alloro
 - [ ] pubblicazione su `salumeriaalcolica.gofood.it` e verifica del lucchetto HTTPS
 
